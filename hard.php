@@ -62,19 +62,6 @@ $players = dealCards($shuffledDeck, $num_cards_to_give_each_player, $players);
 print_r($players);
 
 
-  function createUsers($numOfPlayers){
-    $users = [];
-    for ($i= 0; $i < $numOfPlayers; $i++ ){
-      array_push($users, array());
-    }
-    return $users;
-  }
-
-function playGame($numOfPlayers, $numOfCards){
-
-
-}
-
 $deck = buildDeck();
 $shuffledDeck = shuffleDeck($deck);
 $num_players = 4;
